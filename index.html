@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  h1220</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class='container' align="center">
+  <div class='row'>
+    <div class='col-xs-12 col-sm-offset-4 col-sm-4'>
+      <p class='titleText'>POMODORO CLOCK</p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-xs-6 col-sm-offset-3 col-sm-3'>
+      <p class='control' id="controlSess">session</p>
+      <div class='timeAdjust'>
+        <button class='sessionPlus' id="addTime">
+              <i class="fa fa-plus-circle plus"></i></button>
+        <div class="num" id="setSession"></div>
+        <button class='sessionMinus' id="subtractTime">
+              <i class="fa fa-minus-circle minus"></i>                     </button>
+      </div>
+    </div>
+    <div class='col-xs-6 col-sm-3'>
+      <p class='control' id="controlBreak">break</P>
+      <div class='timeAdjust'>
+        <button class='breakPlus' id="addBreak"><i class="fa fa-plus-circle plus"></i>
+            </button>
+        <div class="num" id="setBreak"></div>
+        <button class='breakMinus' id="subtractBreak"><i class="fa fa-minus-circle minus"></i></button>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-xs-12'>
+        <div class='line' id='line'></div>
+        <div>
+          <p class='displayMode' id="displaySessionText">session</p>
+          <p class='displayMode' id="displayBreakText">break</p>
+          <div class='mainTime' id="mainDisplay"></div>
+          <div>
+            <button id="play">
+                <i class="fa fa-play playPauseRefresh"></i>
+              </button>
+            <button id="pause">
+                <i class="fa fa-pause playPauseRefresh"></i>
+              </button>
+            <button id="reset">
+                <i class="fa fa-refresh playPauseRefresh"></i>
+              </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js'></script>
+<script src='https://use.fontawesome.com/5d39acc00f.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

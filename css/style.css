@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Muli:300|Raleway:100");
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: #2D2D2D;
+  color: #fff;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+.titleText {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.2vw;
+  margin: 2% 0 40px 0;
+}
+@media (max-width: 1181.81818px) {
+  .titleText {
+    font-size: 26px;
+  }
+}
+
+.control {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  margin-bottom: 1px;
+}
+
+.timeAdjust {
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.num {
+  font-size: 35px;
+  position: relative;
+  display: inline-block;
+}
+
+button .plus {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 4px 5px 8px 0;
+  vertical-align: bottom;
+}
+
+button .minus {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 4px 0 8px 5px;
+  vertical-align: bottom;
+}
+
+button .minus:hover, button .plus:hover, button:hover {
+  color: #f19f4d;
+}
+
+#line {
+  margin: 30px 0 30px 0;
+  width: 300px;
+}
+
+.displayMode {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+#displayBreakText {
+  display: none;
+}
+
+.mainTime {
+  font-size: 120px;
+  padding: 5px 0 5px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.playPauseRefresh {
+  font-size: 20px;
+  padding: 4px 12px 20px 12px;
+}
